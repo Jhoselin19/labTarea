@@ -25,9 +25,24 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
-            ],
-            "scripts": []
+              "src/styles.css",
+              "src/assets/vendor/fontawesome/css/font-awesome.css",
+              "src/assets/vendor/animate.css/animate.css",
+              "src/assets/vendor/bootstrap/css/bootstrap.css",
+              "src/assets/vendor/datatables/datatables.min.css",
+              "src/assets/styles/pe-icons/pe-icon-7-stroke.css",
+              "src/assets/styles/pe-icons/helper.css",
+              "src/assets/styles/stroke-icons/style.css",
+              "src/assets/styles/style.css"
+            ],            
+            "scripts": [
+              "src/assets/vendor/pacejs/pace.min.js",
+              "src/assets/vendor/jquery/dist/jquery.min.js",
+              "src/assets/vendor/bootstrap/js/bootstrap.min.js",
+              "src/assets/vendor/datatables/datatables.min.js",
+              "src/assets/scripts/luna.js"
+            ]
+            
           },
           "configurations": {
             "production": {
@@ -94,5 +109,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "e357af8e-0b66-4edb-a707-f2ac3356cd9a"
   }
 }
